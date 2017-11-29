@@ -22,6 +22,12 @@
             return $this->View;
         }
 
+        public function services(){
+            $this->View["view"] = $this->view->render("services");
+            $this->View["title"] = $this->view-> title("| What We Do");
+            return $this->View;
+        }
+
         public function not_found(){
             $this->View["view"] = $this->view->render("404");
             $this->View["title"] = $this->view-> title("| Lost Are We");

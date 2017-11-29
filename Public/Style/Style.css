@@ -1,0 +1,72 @@
+.crimson_tide {
+    background: #642B73;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C6426E, #642B73);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C6426E, #642B73);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.love_couple {
+    background: #3a6186;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #89253e, #3a6186);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #89253e, #3a6186);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+nav li a {
+    transition: color 250ms, font-weight 250ms, text-decoration-line 2000ms !important;
+    text-decoration-line: none;
+}
+
+.link-active {
+    /*text-decoration: underline !important;*/
+    font-weight: 600 !important;
+    color: rgb(200, 60, 89) !important;
+    text-decoration-line: underline !important;
+}
+
+.team-container hr {
+    width: 320px !important;
+}
+
+.member-container {
+    width: 49% !important;
+}
+
+.member-container .face {
+    width: 150px !important;
+    height: 160px !important;
+    border: 0.5mm solid;
+    border-color: rgb(200, 60, 89) !important;
+    border-radius: 200%;
+    display: block !important;
+    margin: 3mm auto 2mm auto !important;
+}
+
+.member-container label {
+    color: white !important;
+    font-size: 17px;
+    text-decoration-line: underline;
+}
+
+.services-container .service-container {
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.services-container .service-container .row {
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 990px) {
+    .brand-logo {
+        margin-left: 4mm !important;
+    }
+}

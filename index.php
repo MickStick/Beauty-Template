@@ -9,10 +9,14 @@
 <!DOCTYPE html>
 <html lang="en">
     <?php include("View/partials/head.php"); ?>
-<body>
+<body class="love_couple">
     <?php include("View/partials/header.php");?>
-    <main>
+    <main class="white-text">
         <?php include($PageView);?>
     </main>
+    <br><br><br>
+    <footer>
+    
+    </footer>
 </body>
 </html>
