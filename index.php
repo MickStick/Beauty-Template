@@ -10,6 +10,7 @@
 <html lang="en">
     <?php include("View/partials/head.php"); ?>
 <body class="love_couple">
+<?php include("View/partials/preloader.php");?>
     <?php include("View/partials/header.php");?>
     <main class="white-text">
         <?php include($PageView);?>
@@ -18,5 +19,11 @@
     <footer>
     
     </footer>
+    <script>
+        window.addEventListener("load", function() {
+            //$('.progress').css({ "display": "none" });
+            $('.progress').animate({height:"toggle"}, 50);
+        });
+    </script>
 </body>
 </html>

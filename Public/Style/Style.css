@@ -9,12 +9,28 @@
 
 .love_couple {
     background: #3a6186;
+    /*rgba(58,97,134)*/
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #89253e, #3a6186);
+    /*rgba(137,37,62)*/
+    /*rgba(58,97,134)*/
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #89253e, #3a6186);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.progress {
+    position: fixed !important;
+    top: 0 !important;
+    margin: 0 !important;
+}
+
+
+/* .progress div {
+    background: #642B73 !important;
+    background: -webkit-linear-gradient(to right, #C6426E, #642B73) !important;
+    background: linear-gradient(to right, #C6426E, #642B73) !important;
+} */
 
 nav li a {
     transition: color 250ms, font-weight 250ms, text-decoration-line 2000ms !important;
@@ -64,6 +80,38 @@ nav li a {
 .services-container .service-container .row {
     margin: 0 auto;
 }
+
+.services-container .modal {
+    background: rgba(58, 97, 134, 0.7) !important;
+    background: -webkit-linear-gradient(to right, rgba(137, 37, 62, 0.7), rgba(58, 97, 134, 0.7)) !important;
+    background: linear-gradient(to right, rgba(137, 37, 62, 0.7), rgba(58, 97, 134, 0.7)) !important;
+}
+
+.services-container .modal hr {
+    width: 105% !important;
+    border: none !important;
+    border-bottom: 0.5mm solid !important;
+    display: block !important;
+    margin: auto !important;
+    margin-left: -2.5% !important;
+}
+
+.services-container .modal .modal-footer {
+    margin-top: -2mm !important;
+    background: rgba(58, 97, 134, 0.5) !important;
+    background: -webkit-linear-gradient(to right, rgba(137, 37, 62, 0.5), rgba(58, 97, 134, 0.5)) !important;
+    background: linear-gradient(to right, rgba(137, 37, 62, 0.5), rgba(58, 97, 134, 0.5)) !important;
+    color: white !important;
+}
+
+.services-container .modal .modal-footer .modal-close {
+    color: white !important;
+}
+
+
+/*.services-container .service-container .card {
+    box-shadow: none !important;
+}*/
 
 @media screen and (min-width: 990px) {
     .brand-logo {
