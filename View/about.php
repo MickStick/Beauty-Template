@@ -14,7 +14,7 @@
         <h4 class="center">The Acme Team</h4>
         <hr/>
         <div class="member-container left">
-            <img class="face" src="" alt="face"/>
+            <img class="face" src="Public/Static/person.png" alt="face"/>
             <h5 class="center">
                 Acme N'Existe Pas <br>
                 <label>Founder and CEO</label>
@@ -26,7 +26,7 @@
             </p>
         </div>
         <div class="member-container right">
-            <img class="face" src="" alt="face"/>
+            <img class="face" src="Public/Static/person.png" alt="face"/>
             <h5 class="center">
                 Beaucoup D'Acne <br>
                 <label>Co-Founder and Marketting Director</label>
