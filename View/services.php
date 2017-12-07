@@ -94,7 +94,7 @@
       <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Ok</a>
     </div>
   </div>
-  <div id="service 3" class="modal">
+  <div id="service3" class="modal">
     <div class="modal-content">
       <h4>Service 3</h4><hr/>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam reprehenderit voluptatibus 
