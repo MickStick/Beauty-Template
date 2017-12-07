@@ -12,4 +12,37 @@ $(document).ready(() => {
     $(window).on('beforeunload', () => {
         $('.progress').css({ "display": "block" });
     });
+
+
+
+    var text = 'Text Added Here!';
+    //alert(text.length);
+    var temp = 6.25;
+    for (var x = 0; x < text.length; x++) {
+        var newSpan = $('<span style="display: none; overflow: hidden;"></span>');
+        newSpan.text(text[x]);
+        $('#not-found-message label').append(newSpan);
+        console.log($('#not-found-message label span').length);
+    }
+
+    StopTyping = () => {
+        clearInterval(TypeWriter);
+    }
+
+    var count = 0;
+
+    var TypeWriter = setInterval(function() {
+        $('#not-found-message label span').eq(count).animate({ display: 'toggle' }, 50, function() {
+            $('#not-found-message label span').eq(count).css({ "display": "inline" });
+            console.log($(this).text());
+            count++;
+        });
+        if (count >= text.length) {
+            StopTyping();
+        }
+    }, 200);
+
+
+
+
 })
