@@ -15,7 +15,7 @@ $(document).ready(() => {
 
 
 
-    var text = 'Text Added Here!';
+    var text = 'Unfortnately, you are lost!';
     //alert(text.length);
     var temp = 6.25;
     for (var x = 0; x < text.length; x++) {
@@ -32,7 +32,7 @@ $(document).ready(() => {
     var count = 0;
 
     var TypeWriter = setInterval(function() {
-        $('#not-found-message label span').eq(count).animate({ display: 'toggle' }, 50, function() {
+        $('#not-found-message label span').eq(count).animate({ display: 'toggle' }, 25, function() {
             $('#not-found-message label span').eq(count).css({ "display": "inline" });
             console.log($(this).text());
             count++;
@@ -40,7 +40,7 @@ $(document).ready(() => {
         if (count >= text.length) {
             StopTyping();
         }
-    }, 200);
+    }, 100);
 
 
 
