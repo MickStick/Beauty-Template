@@ -12,7 +12,7 @@
 <body>
 <?php include("View/partials/preloader.php");?>
     <?php include("View/partials/header.php");?>
-    <main class="pink-text">
+    <main >
         <?php include($PageView);?>
     </main>
     <br><br><br>

@@ -37,12 +37,6 @@ nav li a {
     text-decoration-line: none;
 }
 
-.side-nav {
-    background: rgba(58, 97, 134, 0.3) !important;
-    background: -webkit-linear-gradient(to right, rgba(137, 37, 62, 0.3), rgba(58, 97, 134, 0.3)) !important;
-    background: linear-gradient(to right, rgba(137, 37, 62, 0.3), rgba(58, 97, 134, 0.3)) !important;
-}
-
 .link-active {
     /*text-decoration: underline !important;*/
     font-weight: 600 !important;
@@ -74,6 +68,10 @@ nav li a {
     width: 49% !important;
 }
 
+.member-mob-container .mem-mobile {
+    width: 99% !important;
+}
+
 .member-container .face {
     width: 150px !important;
     height: 160px !important;
@@ -84,8 +82,22 @@ nav li a {
     margin: 3mm auto 2mm auto !important;
 }
 
+.member-mob-container .face {
+    width: 150px !important;
+    height: 160px !important;
+    /*border: 0.5mm solid;*/
+    border-color: rgb(200, 60, 89) !important;
+    border-radius: 200%;
+    display: block !important;
+    margin: 3mm auto 2mm auto !important;
+}
+
 .member-container label {
-    color: white !important;
+    font-size: 17px;
+    text-decoration-line: underline;
+}
+
+.member-mob-container label {
     font-size: 17px;
     text-decoration-line: underline;
 }
@@ -116,6 +128,10 @@ nav li a {
     background: linear-gradient(to right, rgba(137, 37, 62, 0.7), rgba(58, 97, 134, 0.7)) !important;
 } */
 
+.service-container .card-title {
+    font-weight: 600 !important;
+}
+
 .service-container .modal-trigger {
     font-weight: 600 !important;
 }
@@ -124,6 +140,7 @@ nav li a {
     width: 105% !important;
     border: none !important;
     border-bottom: 0.5mm solid !important;
+    border-color: lightpink !important;
     display: block !important;
     margin: auto !important;
     margin-left: -2.5% !important;
