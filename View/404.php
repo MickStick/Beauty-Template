@@ -3,6 +3,6 @@
     <p class="center" id="not-found-message">
         Sorry but that page doesn't seem to exist. <br>
         You either got the URL wrong or over developers need to good talking to.<br>
-        <label class="white-text" style="overflow: hidden; font-size: 16px !important;"></label>
+        <label class="pink-text" style="overflow: hidden; font-size: 16px !important;"></label>
     </p>
 </div>
